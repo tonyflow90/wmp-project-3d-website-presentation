@@ -1,0 +1,27 @@
+{
+  "name": "wmp-gestaltgesetze-presentation",
+  "version": "1.0.0",
+  "description": "https://tonyflow90.github.io/wmp-gestaltgesetze-presentation/",
+  "main": "index.html",
+  "scripts": {
+    "presentationToPDF": "decktape webslides https://tonyflow90.github.io/wmp-gestaltgesetze-presentation/index.html presentation.pdf -s 1920x1024",
+    "handoutLongToPDF": "markdown-pdf handout_long.md --css-path handout_long.css",
+    "handoutToPDF": "markdown-pdf handout.md --css-path handout.css",
+    "generatePDFs": "npm run presentationToPDF && npm run handoutLongToPDF && npm run handoutToPDF",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyflow90/wmp-gestaltgesetze-presentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyflow90/wmp-gestaltgesetze-presentation/issues"
+  },
+  "homepage": "https://github.com/tonyflow90/wmp-gestaltgesetze-presentation#readme",
+  "dependencies": {
+    "decktape": "^2.4.3",
+    "markdown-pdf": "^10.0.0"
+  }
+}
