@@ -1,4 +1,4 @@
-# wmp-gestaltgesetze-presentation
+# wmp-project-3d-website-presentation
 
 ## GH-Pages
 
