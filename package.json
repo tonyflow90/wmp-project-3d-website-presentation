@@ -4,10 +4,7 @@
   "description": "https://tonyflow90.github.io/wmp-project-3d-website-presentation/",
   "main": "index.html",
   "scripts": {
-    "presentationToPDF": "decktape webslides https://tonyflow90.github.io/wmp-project-3d-website-presentation/index.html presentation.pdf -s 1920x1024",
-    "handoutLongToPDF": "markdown-pdf handout_long.md --css-path handout_long.css",
-    "handoutToPDF": "markdown-pdf handout.md --css-path handout.css",
-    "generatePDFs": "npm run presentationToPDF && npm run handoutLongToPDF && npm run handoutToPDF",
+    "pdf": "decktape webslides https://tonyflow90.github.io/wmp-project-3d-website-presentation/index.html presentation.pdf -s 1920x1024",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
